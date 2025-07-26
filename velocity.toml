@@ -6,3 +6,5 @@ bind = "0.0.0.0:35665"
 forced-hosts = {
   "0.0.0.0:35665" = ["lobby"]
 }
+online-mode = false
+forwarding-secret-file = "forwarding.secret"
