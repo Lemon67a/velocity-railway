@@ -1,2 +1,8 @@
 motd = "&4&lElytaPvP &7* &6Sunucu Gece Bakımında!"
 bind = "0.0.0.0:35665"
+[servers]
+  lobby = "elytapvp.falixsrv.me:35665"
+  try = ["lobby"]
+forced-hosts = {
+  "0.0.0.0:35665" = ["lobby"]
+}
